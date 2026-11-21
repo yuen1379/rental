@@ -1,0 +1,337 @@
+id,text,intent,language_style,noise_level,split
+RI0001,Ada viewing secara online tak?,request_viewing,Malay,standard,test
+RI0002,Ada bilik bawah RM500 tak?,search_property,Malay,standard,train
+RI0003,Are electricity and water included?,ask_facilities,English,standard,train
+RI0004,Harga sewa for this room?,ask_price,Mixed,standard,train
+RI0005,Any student room with a private bathroom?,search_property,English,standard,train
+RI0006,Ada bayaran awal lain tak?,ask_deposit,Malay,standard,train
+RI0007,Boleh buat janji temu tengok bilik?,request_viewing,Malay,standard,train
+RI0008,Is there a time slot available on Saturday?,request_viewing,English,standard,train
+RI0009,Ada bilik yang lagi murah?,ask_price,Malay,standard,train
+RI0010,每个月总共要付多少？,ask_price,Chinese,standard,train
+RI0011,Which area is room R003 in?,ask_location,English,standard,train
+RI0012,I am looking for a shared room,search_property,English,standard,train
+RI0013,Bilik ni masih kosong tak?,ask_availability,Malay,standard,train
+RI0014,有master room available tak?,search_property,Mixed,standard,train
+RI0015,Bilik R004 dah ada orang ke?,ask_availability,Malay,standard,test
+RI0016,Minimum sewa period berapa?,ask_rental_terms,Mixed,standard,train
+RI0017,Can I cook in the kitchen?,ask_facilities,English,standard,train
+RI0018,Can I move in next month?,ask_availability,English,standard,train
+RI0019,Bil elektrik dan air termasuk tak?,ask_facilities,Malay,standard,train
+RI0020,Ada had masa balik rumah ke?,ask_rental_terms,Malay,standard,train
+RI0021,Got curfew for tenant ah?,ask_rental_terms,Mixed,standard,train
+RI0022,需要签租房合约吗？,ask_rental_terms,Chinese,standard,train
+RI0023,Sebelum masuk perlu bayar deposit?,ask_deposit,Malay,standard,test
+RI0024,Booking deposit 要给吗？,ask_deposit,Mixed,standard,train
+RI0025,Deposit bilik berapa?,ask_deposit,Malay,standard,train
+RI0026,Two students boleh stay together ke?,ask_availability,Mixed,standard,train
+RI0027,How to pergi rumah tu?,ask_location,Mixed,standard,train
+RI0028,水电费有包括吗？,ask_facilities,Chinese,standard,train
+RI0029,Is a virtual viewing possible?,request_viewing,English,standard,test
+RI0030,Room still available tak?,ask_availability,Mixed,standard,train
+RI0031,要怎样安排看房时间？,request_viewing,Chinese,standard,train
+RI0032,What is the address of the rental unit?,ask_location,English,standard,test
+RI0033,有没有独立厕所的房间？,search_property,Chinese,standard,train
+RI0034,Any cheaper bilik lah?,ask_price,Mixed,standard,train
+RI0035,Dua student boleh masuk sekali?,ask_availability,Malay,standard,train
+RI0036,Nak tengok pilihan bilik master,search_property,Malay,standard,train
+RI0037,Pets allowed dalam rumah吗？,ask_rental_terms,Mixed,standard,train
+RI0038,Does the room have a study desk?,ask_facilities,English,standard,train
+RI0039,Can you show me more photos of the room?,request_viewing,English,standard,test
+RI0040,I want room area Setapak boleh?,search_property,Mixed,standard,train
+RI0041,Where is the room located?,ask_location,English,standard,train
+RI0042,Next month boleh move in ah?,ask_availability,Mixed,standard,train
+RI0043,退房后多久退押金？,ask_deposit,Chinese,standard,train
+RI0044,最短租期是多久？,ask_rental_terms,Chinese,standard,train
+RI0045,When is the earliest move-in date?,ask_availability,English,standard,train
+RI0046,Boleh bagi tahu harga sewa?,ask_price,Malay,standard,train
+RI0047,这里有提供Wi-Fi吗？,ask_facilities,Chinese,standard,train
+RI0048,Wi-Fi disediakan ke?,ask_facilities,Malay,standard,train
+RI0049,Can cari bilik murah for student?,search_property,Mixed,standard,train
+RI0050,R002房间的押金是多少？,ask_deposit,Chinese,standard,train
+RI0051,Tetamu dibenarkan masuk tak?,ask_rental_terms,Malay,standard,train
+RI0052,可以走路去学校吗？,ask_location,Chinese,standard,test
+RI0053,From TARUMT jauh tak?,ask_location,Mixed,standard,train
+RI0054,Is it within walking distance of campus?,ask_location,English,standard,test
+RI0055,Is the deposit refundable?,ask_deposit,English,standard,test
+RI0056,Sewa bawah RM450 ke?,ask_price,Malay,standard,test
+RI0057,Virtual viewing boleh吗？,request_viewing,Mixed,standard,test
+RI0058,Dekat dengan stesen LRT tak?,ask_location,Malay,standard,train
+RI0059,Iklan bilik ni masih aktif ke?,ask_availability,Malay,standard,test
+RI0060,How can I get to the property?,ask_location,English,standard,train
+RI0061,厨房可以煮饭吗？,ask_facilities,Chinese,standard,train
+RI0062,Find me a room around Setapak,search_property,English,standard,train
+RI0063,请问租金价格是多少？,ask_price,Chinese,standard,train
+RI0064,Perlu bayar booking deposit ke?,ask_deposit,Malay,standard,train
+RI0065,Do I need to pay a booking deposit?,ask_deposit,English,standard,train
+RI0066,Tolong carikan bilik single untuk student,search_property,Malay,standard,test
+RI0067,Bilik ada aircond tak?,ask_facilities,Malay,standard,train
+RI0068,Boleh tunjuk lebih banyak gambar bilik?,request_viewing,Malay,standard,test
+RI0069,Help me find bilik sewa near campus,search_property,Mixed,standard,test
+RI0070,房子允许访客进入吗？,ask_rental_terms,Chinese,standard,train
+RI0071,Berapa sewa untuk bilik single?,ask_price,Malay,standard,test
+RI0072,Wi-Fi 有提供吗？,ask_facilities,Mixed,standard,train
+RI0073,Show me rooms suitable for a student,search_property,English,standard,test
+RI0074,This listing masih active吗？,ask_availability,Mixed,standard,test
+RI0075,Room ni Setapak 还是 Wangsa Maju?,ask_location,Mixed,standard,train
+RI0076,Bila tarikh paling awal boleh masuk?,ask_availability,Malay,standard,train
+RI0077,房间有冷气吗？,ask_facilities,Chinese,standard,train
+RI0078,Near LRT station ke?,ask_location,Mixed,standard,train
+RI0079,Any other upfront payment ke?,ask_deposit,Mixed,standard,train
+RI0080,Harga sewa termasuk bil air dan elektrik ke?,ask_price,Malay,standard,train
+RI0081,Ada study table in room?,ask_facilities,Mixed,standard,train
+RI0082,下个月可以入住吗？,ask_availability,Chinese,standard,train
+RI0083,Deposit untuk bilik R002 berapa?,ask_deposit,Malay,standard,train
+RI0084,Boleh sewa enam bulan sahaja?,ask_rental_terms,Malay,standard,test
+RI0085,需要先付订房押金吗？,ask_deposit,Chinese,standard,train
+RI0086,What is the rent for a single room?,ask_price,English,standard,test
+RI0087,Boleh cooking in kitchen ah?,ask_facilities,Mixed,standard,train
+RI0088,Ada bilik dengan tandas sendiri?,search_property,Malay,standard,train
+RI0089,这个出租信息还有效吗？,ask_availability,Chinese,standard,test
+RI0090,可以线上看房吗？,request_viewing,Chinese,standard,test
+RI0091,How much is the security deposit?,ask_deposit,English,standard,train
+RI0092,What is the price for room R001?,ask_price,English,standard,train
+RI0093,I want to visit the room this weekend,request_viewing,English,standard,train
+RI0094,I need a single room near campus,search_property,English,standard,train
+RI0095,这个周末我想去看房,request_viewing,Chinese,standard,train
+RI0096,Got washing machine ke?,ask_facilities,Mixed,standard,test
+RI0097,可以只租六个月吗？,ask_rental_terms,Chinese,standard,test
+RI0098,Is there a cheaper room available?,ask_price,English,standard,train
+RI0099,Ada mesin basuh?,ask_facilities,Malay,standard,test
+RI0100,Are there any vacant rooms today?,ask_availability,English,standard,train
+RI0101,押金可以退还吗？,ask_deposit,Chinese,standard,test
+RI0102,Is there a washing machine?,ask_facilities,English,standard,test
+RI0103,Is the rent below RM450?,ask_price,English,standard,test
+RI0104,Can rent six months sahaja吗？,ask_rental_terms,Mixed,standard,test
+RI0105,Today got bilik kosong吗？,ask_availability,Mixed,standard,train
+RI0106,如果迟交房租会怎样？,ask_rental_terms,Chinese,standard,test
+RI0107,Parking included吗？,ask_facilities,Mixed,standard,train
+RI0108,Is the room near an LRT station?,ask_location,English,standard,train
+RI0109,Room ada aircond tak?,ask_facilities,Mixed,standard,train
+RI0110,Visitor boleh datang tak?,ask_rental_terms,Mixed,standard,train
+RI0111,How to arrange appointment ah?,request_viewing,Mixed,standard,train
+RI0112,How much is the monthly rent?,ask_price,English,standard,train
+RI0113,Is this room in Setapak or Wangsa Maju?,ask_location,English,standard,train
+RI0114,这间房允许养宠物吗？,ask_rental_terms,Chinese,standard,train
+RI0115,星期六有看房时段吗？,request_viewing,Chinese,standard,train
+RI0116,这个房间一个月多少钱？,ask_price,Chinese,standard,train
+RI0117,What happens if I pay rent late?,ask_rental_terms,English,standard,test
+RI0118,Late bayar rent got penalty ke?,ask_rental_terms,Mixed,standard,test
+RI0119,Bila deposit akan dipulangkan?,ask_deposit,Malay,standard,train
+RI0120,I would like to inspect the property before renting,request_viewing,English,standard,train
+RI0121,可以提前结束合约吗？,ask_rental_terms,Chinese,standard,train
+RI0122,What is the minimum rental period?,ask_rental_terms,English,standard,train
+RI0123,Can I see room R005 tomorrow?,request_viewing,English,standard,train
+RI0124,房间在哪里？,ask_location,Chinese,standard,train
+RI0125,我想租一间双人共用房,search_property,Chinese,standard,train
+RI0126,Room location dekat mana ah?,ask_location,Mixed,standard,train
+RI0127,Bilik ada tandas sendiri?,ask_facilities,Malay,standard,test
+RI0128,Cari bilik area Setapak boleh?,search_property,Malay,standard,train
+RI0129,Need sign tenancy agreement ke?,ask_rental_terms,Mixed,standard,train
+RI0130,Attached toilet ada tak?,ask_facilities,Mixed,standard,test
+RI0131,Is there a curfew for tenants?,ask_rental_terms,English,standard,train
+RI0132,Perlu tandatangan perjanjian sewa ke?,ask_rental_terms,Malay,standard,train
+RI0133,Can book viewing slot tak?,request_viewing,Mixed,standard,train
+RI0134,附近有LRT站吗？,ask_location,Chinese,standard,train
+RI0135,Parking termasuk sekali ke?,ask_facilities,Malay,standard,train
+RI0136,Boleh jalan kaki ke kampus?,ask_location,Malay,standard,test
+RI0137,RM500 include utilities ke?,ask_price,Mixed,standard,train
+RI0138,Weekend ni nak tengok room lah,request_viewing,Mixed,standard,train
+RI0139,Tempoh sewa minimum berapa lama?,ask_rental_terms,Malay,standard,train
+RI0140,Can you tell me the rental price?,ask_price,English,standard,train
+RI0141,Can I terminate the agreement early?,ask_rental_terms,English,standard,train
+RI0142,Is parking included?,ask_facilities,English,standard,train
+RI0143,Utilities include water 电费吗？,ask_facilities,Mixed,standard,train
+RI0144,距离TARUMT有多远？,ask_location,Chinese,standard,train
+RI0145,请问怎么去这个单位？,ask_location,Chinese,standard,train
+RI0146,单人房月租多少钱？,ask_price,Chinese,standard,test
+RI0147,我想找大学附近的单人房,search_property,Chinese,standard,train
+RI0148,Can two students move in together?,ask_availability,English,standard,train
+RI0149,Is there an attached bathroom?,ask_facilities,English,standard,test
+RI0150,押金要给多少钱？,ask_deposit,Chinese,standard,train
+RI0151,Saya nak periksa rumah sebelum sewa,request_viewing,Malay,standard,train
+RI0152,一月份有房间出租吗？,ask_availability,Chinese,standard,train
+RI0153,Saya perlukan bilik untuk disewa,search_property,Malay,standard,test
+RI0154,要付几个月的押金？,ask_deposit,Chinese,standard,train
+RI0155,Can I schedule a room viewing?,request_viewing,English,standard,train
+RI0156,Apa alamat unit sewa ni?,ask_location,Malay,standard,test
+RI0157,What is the deposit for room R002?,ask_deposit,English,standard,train
+RI0158,这间房还有空吗？,ask_availability,Chinese,standard,train
+RI0159,房间有独立卫生间吗？,ask_facilities,Chinese,standard,test
+RI0160,Hari ni ada bilik kosong?,ask_availability,Malay,standard,train
+RI0161,Tomorrow can see R005 ke?,request_viewing,Mixed,standard,train
+RI0162,Bilik ni dekat mana?,ask_location,Malay,standard,train
+RI0163,Setiap bulan kena bayar berapa?,ask_price,Malay,standard,train
+RI0164,可以给我更多房间照片吗？,request_viewing,Chinese,standard,test
+RI0165,R003 area 哪里？,ask_location,Mixed,standard,train
+RI0166,帮我找适合学生租的房,search_property,Chinese,standard,test
+RI0167,Do you have a room available in January?,ask_availability,English,standard,train
+RI0168,When will my deposit be returned?,ask_deposit,English,standard,train
+RI0169,还有更便宜的房间吗？,ask_price,Chinese,standard,train
+RI0170,Can refund deposit tak?,ask_deposit,Mixed,standard,test
+RI0171,Before move in perlu pay deposit?,ask_deposit,Mixed,standard,test
+RI0172,Harga bilik R001 berapa ya?,ask_price,Malay,standard,train
+RI0173,R002 deposit 多少钱？,ask_deposit,Mixed,standard,train
+RI0174,Is room R004 already taken?,ask_availability,English,standard,test
+RI0175,房间里有书桌吗？,ask_facilities,Chinese,standard,train
+RI0176,租客有门禁时间吗？,ask_rental_terms,Chinese,standard,train
+RI0177,Boleh tamatkan kontrak lebih awal?,ask_rental_terms,Malay,standard,train
+RI0178,Nak room below RM500 lah,search_property,Mixed,standard,train
+RI0179,Esok boleh tengok bilik R005?,request_viewing,Malay,standard,train
+RI0180,Do I need to sign a tenancy agreement?,ask_rental_terms,English,standard,train
+RI0181,Deposit boleh dapat balik tak?,ask_deposit,Malay,standard,test
+RI0182,Got room rent below RM450 tak?,ask_price,Mixed,standard,test
+RI0183,Boleh masuk bulan depan?,ask_availability,Malay,standard,train
+RI0184,Are pets allowed in the house?,ask_rental_terms,English,standard,train
+RI0185,有没有月租五百以下的房间？,search_property,Chinese,standard,train
+RI0186,最早几时可以搬进去？,ask_availability,Chinese,standard,train
+RI0187,R001的租金是多少？,ask_price,Chinese,standard,train
+RI0188,R003是在什么地区？,ask_location,Chinese,standard,train
+RI0189,押金 when can get back lah?,ask_deposit,Mixed,standard,train
+RI0190,Address boleh share tak?,ask_location,Mixed,standard,test
+RI0191,Is the room still available?,ask_availability,English,standard,train
+RI0192,Kena bayar deposit berapa bulan?,ask_deposit,Malay,standard,train
+RI0193,Macam mana nak pergi rumah tu?,ask_location,Malay,standard,train
+RI0194,可以找Setapak附近的房吗？,search_property,Chinese,standard,train
+RI0195,Does the room have air conditioning?,ask_facilities,English,standard,train
+RI0196,Ada room with private toilet吗？,search_property,Mixed,standard,train
+RI0197,Jauh tak dari TARUMT?,ask_location,Malay,standard,train
+RI0198,有没有提供停车位？,ask_facilities,Chinese,standard,train
+RI0199,R004 dah taken ke?,ask_availability,Mixed,standard,test
+RI0200,Nak bilik kongsi yang murah,search_property,Malay,standard,train
+RI0201,How many months of deposit are required?,ask_deposit,English,standard,train
+RI0202,Nak pergi tengok bilik hujung minggu ni,request_viewing,Malay,standard,train
+RI0203,Deposit berapa bulan ah?,ask_deposit,Mixed,standard,train
+RI0204,How much deposit kena bayar?,ask_deposit,Mixed,standard,train
+RI0205,Got single bilik near uni ah?,search_property,Mixed,standard,train
+RI0206,Is Wi-Fi provided?,ask_facilities,English,standard,train
+RI0207,Sabtu ada slot untuk tengok rumah?,request_viewing,Malay,standard,train
+RI0208,租之前我想亲自检查单位,request_viewing,Chinese,standard,train
+RI0209,入住前要先付押金吗？,ask_deposit,Chinese,standard,test
+RI0210,Are visitors allowed in the unit?,ask_rental_terms,English,standard,train
+RI0211,Macam mana nak atur appointment viewing?,request_viewing,Malay,standard,train
+RI0212,Does the listed rent include utilities?,ask_price,English,standard,train
+RI0213,Terminate contract awal boleh?,ask_rental_terms,Mixed,standard,train
+RI0214,还有什么预付款要付？,ask_deposit,Chinese,standard,train
+RI0215,可以预约看房吗？,request_viewing,Chinese,standard,train
+RI0216,R004已经有人租了吗？,ask_availability,Chinese,standard,test
+RI0217,Sewa sebulan berapa?,ask_price,Malay,standard,train
+RI0218,Kalau lambat bayar sewa macam mana?,ask_rental_terms,Malay,standard,test
+RI0219,Can I rent the room for six months?,ask_rental_terms,English,standard,test
+RI0220,Can you find a room under RM500?,search_property,English,standard,train
+RI0221,Boleh bela haiwan peliharaan tak?,ask_rental_terms,Malay,standard,train
+RI0222,Are there any extra upfront payments?,ask_deposit,English,standard,train
+RI0223,可以给我房间地址吗？,ask_location,Chinese,standard,test
+RI0224,有洗衣机可以用吗？,ask_facilities,Chinese,standard,test
+RI0225,Monthly rental berapa ah?,ask_price,Mixed,standard,train
+RI0226,Boleh masak dekat dapur?,ask_facilities,Malay,standard,train
+RI0227,明天可以看R005吗？,request_viewing,Chinese,standard,train
+RI0228,今天有没有空房？,ask_availability,Chinese,standard,train
+RI0229,Is this listing still active?,ask_availability,English,standard,test
+RI0230,两位学生可以一起入住吗？,ask_availability,Chinese,standard,train
+RI0231,房租有低于RM450吗？,ask_price,Chinese,standard,test
+RI0232,Bilik ni Setapak atau Wangsa Maju?,ask_location,Malay,standard,train
+RI0233,Room photos 可以多发吗？,request_viewing,Mixed,standard,test
+RI0234,Can walk to campus吗？,ask_location,Mixed,standard,test
+RI0235,How far is the room from TARUMT?,ask_location,English,standard,train
+RI0236,Every month kena bayar how much?,ask_price,Mixed,standard,train
+RI0237,房租包括水电费吗？,ask_price,Chinese,standard,train
+RI0238,我想看看主人房出租,search_property,Chinese,standard,train
+RI0239,Do you have a master room for rent?,search_property,English,standard,train
+RI0240,Saya nak cari bilik sewa dekat universiti,search_property,Malay,standard,train
+RI0241,Ada meja belajar dalam bilik?,ask_facilities,Malay,standard,train
+RI0242,这是Setapak还是Wangsa Maju？,ask_location,Chinese,standard,train
+RI0243,推荐一些便宜的学生房间,search_property,Chinese,standard,test
+RI0244,Bilik R003 dekat kawasan mana?,ask_location,Malay,standard,train
+RI0245,How do I arrange a viewing appointment?,request_viewing,English,standard,train
+RI0246,Saturday ada viewing slot tak?,request_viewing,Mixed,standard,train
+RI0247,Ada bilik available bulan Januari?,ask_availability,Malay,standard,train
+RI0248,有没有shared room dekat TARUMT?,search_property,Mixed,standard,test
+RI0249,Earliest move-in bila?,ask_availability,Mixed,standard,train
+RI0250,How much will I pay every month?,ask_price,English,standard,train
+RI0251,Before rent saya nak inspect rumah,request_viewing,Mixed,standard,train
+RI0252,Single room sewa berapa?,ask_price,Mixed,standard,test
+RI0253,Do I pay the deposit before moving in?,ask_deposit,English,standard,test
+RI0254,January ada available room tak?,ask_availability,Mixed,standard,train
+RI0255,Help me search for an affordable room,search_property,English,standard,test
+RI0256,R001 price 多少钱？,ask_price,Mixed,standard,train
+RI0257,"Bos, area PJ ada whole unit 3 bilik FF bawah RM2500 x?",search_property,Mixed,heavy_slang,train
+RI0258,"Nk cari condo dkt Cyber yg PF ada 2 cp, budget RM1800",search_property,Mixed,heavy_slang,train
+RI0259,Cheras ada unit 拎包入住 3房 below RM2000 anot?,search_property,Mixed,heavy_slang,train
+RI0260,Eh boss set apart got any condo near LRT walking distance tak,search_property,Mixed,voice_asr,train
+RI0261,"Tlg cari unit kt WM atau Sentul, xnk basic unit punya",search_property,Mixed,heavy_slang,test
+RI0262,"Hi bro, chair us got 3 bilik FF with 2 car pack below 2200 tak",search_property,Mixed,voice_asr,test
+RI0263,Ada direct owner unit kt Puchong utk family 4 pax x?,search_property,Mixed,heavy_slang,test
+RI0264,"Nk cari rumah campur atau whole unit kt PV13, budget 2500 bawah",search_property,Mixed,heavy_slang,test
+RI0265,"PV13 unit U001 RM2500 agak harga kayangan lah bos, blh nego tipis x?",ask_price,Mixed,heavy_slang,train
+RI0266,Sewa bulanan tu bape? Ada caj tambahan mcm maintenance fee x?,ask_price,Mixed,heavy_slang,train
+RI0267,Unit kt PJ ni blh bagi harga marhaen sikit tak utk 2 tahun kontrak?,ask_price,Mixed,heavy_slang,train
+RI0268,Boss monthly rent ni kena extra touch for parking tak,ask_price,Mixed,voice_asr,train
+RI0269,U002 PV15 brp sewa skrg? Blh nego sikit anot?,ask_price,Mixed,heavy_slang,test
+RI0270,"Harga ni cekik darah sgt lah bro, owner blh kurang RM100 x?",ask_price,Mixed,heavy_slang,test
+RI0271,RM1600 tu all in ke or kena bayar caj asing?,ask_price,Mixed,heavy_slang,test
+RI0272,Eh bro unit PB13 tu sewa berapa sebulan boleh nego ke,ask_price,Mixed,voice_asr,test
+RI0273,"Kalau jadi amik whole unit ni, depo 2+1+0.5 sekali TA stamping bape total?",ask_deposit,Mixed,heavy_slang,train
+RI0274,Nak lock dulu kena bayar earnest depo skrg ke?,ask_deposit,Mixed,heavy_slang,train
+RI0275,Lps habis kontrak bila blh rifan utility depo ah?,ask_deposit,Mixed,heavy_slang,train
+RI0276,Boss how much is the depot and tenancy agreement fee total,ask_deposit,Mixed,voice_asr,train
+RI0277,Buking fee tu kalau owner reject blh rifan 100% x?,ask_deposit,Mixed,heavy_slang,test
+RI0278,退押金要等多久？怕 kena sidai je,ask_deposit,Mixed,heavy_slang,test
+RI0279,Stamping fee utk TA 1 tahun biasanya kena caj bape?,ask_deposit,Mixed,heavy_slang,test
+RI0280,Eh kalau saya lock unit ni depot 2+1+0.5 kena bayar kat mana,ask_deposit,Mixed,voice_asr,test
+RI0281,Unit ni ada 2 cp ke? Tandem parking ke side by side?,ask_facilities,Mixed,heavy_slang,train
+RI0282,Sewa tu 包水电 包网 ke or bil api air bayar sendiri?,ask_facilities,Mixed,heavy_slang,train
+RI0283,Bilik ada ac x? Aircond kira 跑meter ke share bill?,ask_facilities,Mixed,heavy_slang,train
+RI0284,Boss unit ni ada submitter untuk aircond ke atau happy air asing,ask_facilities,Mixed,voice_asr,train
+RI0285,Dapur blh light cooking 小煮 anot? Ada washing machine x?,ask_facilities,Mixed,heavy_slang,test
+RI0286,U001 ni FF ke PF? Ada attached toilet dlm master room x?,ask_facilities,Mixed,heavy_slang,test
+RI0287,Ada extra carpark 车位 blh sewa dgn management x?,ask_facilities,Mixed,heavy_slang,test
+RI0288,Unit kat PV fifteen tu got two car pack and aircond tak,ask_facilities,Mixed,voice_asr,test
+RI0289,Unit ni jalan kaki pergi stesen LRT jauh x?,ask_location,Mixed,heavy_slang,train
+RI0290,Cheras ni belah KL ke Selangor? Dkt MRT mana?,ask_location,Mixed,heavy_slang,train
+RI0291,Dari PV13 pergi TARUMT walking distance anot?,ask_location,Mixed,heavy_slang,train
+RI0292,Eh boss condo kat set apart tu dekat stesen LRT mana ya,ask_location,Mixed,voice_asr,train
+RI0293,Unit kt OKR atau BJ tu jammed x pagi-pagi?,ask_location,Mixed,heavy_slang,test
+RI0294,Ampang unit ni belah KL ke Selangor ah? Kt mana exactly?,ask_location,Mixed,heavy_slang,test
+RI0295,Dari KD atau PJ unit ni senang dpt MRT x?,ask_location,Mixed,heavy_slang,test
+RI0296,PV thirteen tu jauh tak dari tar umt kalau jalan kaki,ask_location,Mixed,voice_asr,test
+RI0297,"Bos, unit U004 kat PV21 still avail anot?",ask_availability,Mixed,heavy_slang,train
+RI0298,Ada kosong lagi x area Shah Alam utk masuk bulan depan?,ask_availability,Mixed,heavy_slang,train
+RI0299,Unit ni move-in condition skrg terus blh masuk ke?,ask_availability,Mixed,heavy_slang,train
+RI0300,Hi bro PV eighteen tu still available tak nak masuk next month,ask_availability,Mixed,voice_asr,train
+RI0301,R001 got anot? Nk konfem cepat sbb skrg tgh cari urgent,ask_availability,Mixed,heavy_slang,test
+RI0302,Unit kt Cyberjaya tu dah ada org buking ke blm?,ask_availability,Mixed,heavy_slang,test
+RI0303,"Kalau nk masuk lps raya, skrg ada kosong yg blh lock dulu x?",ask_availability,Mixed,heavy_slang,test
+RI0304,Unit PV twenty one ada kosong lagi ke untuk 3 pax,ask_availability,Mixed,voice_asr,test
+RI0305,"Kalau kontrak mati 1 tahun tapi lps 6 mth nk kansel, depo burn terus ke?",ask_rental_terms,Mixed,heavy_slang,train
+RI0306,Blh buat sublet atau Airbnb x kalau saya sewa whole unit?,ask_rental_terms,Mixed,heavy_slang,train
+RI0307,"Saya ada kucing, condo ni blh bela pet x? Ada caj extra?",ask_rental_terms,Mixed,heavy_slang,train
+RI0308,Boss kalau saya nak stay six months sahaja boleh ke or must sign one year TA,ask_rental_terms,Mixed,voice_asr,train
+RI0309,"Kalau aircond rosak tgh kontrak, owner bayar ke tenant setel?",ask_rental_terms,Mixed,heavy_slang,test
+RI0310,Nk sewa kena bagi payslip dgn IC ke? Student blh guna offer letter x?,ask_rental_terms,Mixed,heavy_slang,test
+RI0311,Kalau lambat bayar sewa 3 hari kena caj penalty x?,ask_rental_terms,Mixed,heavy_slang,test
+RI0312,Early termination nanti depot burn ke kalau saya cari replacement,ask_rental_terms,Mixed,voice_asr,test
+RI0313,Esok lps kerja around 6pm blh dtg tengok rumah U001 x? Jgn sidai ya bos,request_viewing,Mixed,heavy_slang,train
+RI0314,"Weekend ni nak 看房 unit Cheras, kena bayar viewing fee x?",request_viewing,Mixed,heavy_slang,train
+RI0315,Blh buat video viewing dulu x sbb saya skrg kt Penang?,request_viewing,Mixed,heavy_slang,train
+RI0316,Hi boss esok petang boleh set tengok unit PB13 tak,request_viewing,Mixed,voice_asr,train
+RI0317,"Nak book slot tengok unit U005 Sabtu ni, REN tag bos nombor bape?",request_viewing,Mixed,heavy_slang,test
+RI0318,Malam ni pukul 8 blh dtg tengok bilik x? Takut org lain lock dulu,request_viewing,Mixed,heavy_slang,test
+RI0319,"Tlg arrange viewing kt PJ Ahad ni, free kan xde caj?",request_viewing,Mixed,heavy_slang,test
+RI0320,Eh bro boleh tengok rumah kat chair us esok pukul dua tak,request_viewing,Mixed,voice_asr,test
+RI0321,"Bos, saya nak beli condo baru kat Cheras, berapa downpayment?",out_of_scope,Mixed,standard,train
+RI0322,Can you help me calculate housing loan DSR for RM500k house?,out_of_scope,English,standard,train
+RI0323,Ada kedai shop lot untuk disewa kat Setapak tak?,out_of_scope,Malay,standard,train
+RI0324,我想卖掉我在PJ的排屋，你们有帮人卖房吗？,out_of_scope,Chinese,standard,train
+RI0325,"Bro, interest rate bank skrg utk mortgage loan bape percent?",out_of_scope,Mixed,heavy_slang,train
+RI0326,Looking to rent a commercial warehouse in Shah Alam,out_of_scope,English,standard,train
+RI0327,Boleh tolong jualkan tanah pusaka kat Selangor tak?,out_of_scope,Malay,standard,train
+RI0328,请问现在买房印花税怎么算？,out_of_scope,Chinese,standard,train
+RI0329,"Hi bos, nk beli rumah subsale area PJ bawah RM400k ada x?",out_of_scope,Mixed,heavy_slang,test
+RI0330,Can check my loan eligibility with Maybank or Public Bank?,out_of_scope,English,standard,test
+RI0331,Ada office space komersial untuk sewa dekat KLCC tak?,out_of_scope,Malay,standard,test
+RI0332,你们有没有卖二手车或者出租店面？,out_of_scope,Chinese,standard,test
+RI0333,Gaji RM4000 blh lepas loan rumah bape ratus ribu ah?,out_of_scope,Mixed,heavy_slang,test
+RI0334,"I want to sell my apartment in Cheras, what is your commission?",out_of_scope,English,standard,test
+RI0335,Nak cari kilang atau factory lot sewa kt Klang,out_of_scope,Mixed,heavy_slang,test
+RI0336,What is today's weather in Kuala Lumpur?,out_of_scope,English,standard,test

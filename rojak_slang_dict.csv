@@ -1,0 +1,123 @@
+slang_term,normalized_text,category,match_type,priority,target_slot,source
+tenancy agreement fee,tenancy agreement legal stamping cost,asr_error,phrase,1,ask_deposit,static_init
+pv twenty one,PV21,asr_error,phrase,1,location,static_init
+extra touch,extra charge,asr_error,phrase,1,ask_price,static_init
+pv eighteen,PV18,asr_error,phrase,1,location,static_init
+pv thirteen,PV13,asr_error,phrase,1,location,static_init
+kena touch,kena charge,asr_error,phrase,1,ask_price,static_init
+pv fifteen,PV15,asr_error,phrase,1,location,static_init
+happy air,electricity water utilities,asr_error,phrase,1,ask_facilities,static_init
+set apart,Setapak,asr_error,phrase,1,location,static_init
+sub meter,sub-meter,asr_error,phrase,1,ask_facilities,static_init
+submitter,sub-meter,asr_error,word_boundary,1,ask_facilities,static_init
+car pack,parking,asr_error,phrase,1,ask_facilities,static_init
+car part,parking,asr_error,phrase,1,ask_facilities,static_init
+chair us,Cheras,asr_error,phrase,1,location,static_init
+tar umt,TARUMT,asr_error,phrase,1,location,static_init
+stapak,Setapak,asr_error,word_boundary,1,location,static_init
+depot,deposit,asr_error,word_boundary,1,ask_deposit,static_init
+pb13,PV13,asr_error,word_boundary,1,location,static_init
+jalan kaki pergi stesen lrt,Near KTM/LRT walking distance,rental_jargon,phrase,2,ask_location,static_init
+move in condition,Fully Furnished available,rental_jargon,phrase,2,furnished,static_init
+move-in condition,Fully Furnished available,rental_jargon,phrase,2,furnished,static_init
+partial furnished,Partially Furnished,rental_jargon,phrase,2,furnished,static_init
+attached toilet,private bathroom,rental_jargon,phrase,2,ask_facilities,static_init
+harga kayangan,too expensive rent,rental_jargon,phrase,2,ask_price,static_init
+jalan kaki lrt,Near KTM/LRT walking distance,rental_jargon,phrase,2,ask_location,static_init
+jalan kaki mrt,Near KTM/LRT walking distance,rental_jargon,phrase,2,ask_location,static_init
+tandem parking,front and back parking lots,rental_jargon,phrase,2,parking,static_init
+fully furnish,Fully Furnished,rental_jargon,phrase,2,furnished,static_init
+harga marhaen,affordable cheap rent,rental_jargon,phrase,2,ask_price,static_init
+light cooking,Cooking Allowed,rental_jargon,phrase,2,ask_facilities,static_init
+depo 2+1+0.5,security deposit advance rent utility deposit,rental_jargon,phrase,2,ask_deposit,static_init
+direct owner,rent directly from landlord,rental_jargon,phrase,2,search_property,static_init
+earnest depo,initial booking deposit,rental_jargon,phrase,2,ask_deposit,static_init
+kontrak mati,minimum contract early termination,rental_jargon,phrase,2,ask_rental_terms,static_init
+rumah campur,mixed gender unit,rental_jargon,phrase,2,search_property,static_init
+side by side,parallel parking lots,rental_jargon,phrase,2,parking,static_init
+stamping fee,tenancy agreement stamping fee,rental_jargon,phrase,2,ask_deposit,static_init
+tengok bilik,viewing appointment,rental_jargon,phrase,2,request_viewing,static_init
+tengok rumah,viewing appointment,rental_jargon,phrase,2,request_viewing,static_init
+utility depo,utilities deposit,rental_jargon,phrase,2,ask_deposit,static_init
+bil api air,electricity water utilities,rental_jargon,phrase,2,ask_facilities,static_init
+cekik darah,overpriced expensive rent,rental_jargon,phrase,2,ask_price,static_init
+still avail,still available,rental_jargon,phrase,2,ask_availability,static_init
+tengok unit,viewing appointment,rental_jargon,phrase,2,request_viewing,static_init
+ada kosong,available unit,rental_jargon,phrase,2,ask_availability,static_init
+basic unit,Not Furnished,rental_jargon,phrase,2,furnished,static_init
+jalan kaki,walking distance,rental_jargon,phrase,2,ask_location,static_init
+nego tipis,slightly negotiable price,rental_jargon,phrase,2,ask_price,static_init
+share bill,shared utilities bill,rental_jargon,phrase,2,ask_facilities,static_init
+whole unit,entire apartment unit,rental_jargon,phrase,2,search_property,static_init
+bare unit,Not Furnished,rental_jargon,phrase,2,furnished,static_init
+burn depo,forfeit deposit penalty,rental_jargon,phrase,2,ask_rental_terms,static_init
+depo burn,forfeit deposit penalty,rental_jargon,phrase,2,ask_rental_terms,static_init
+lock dulu,reserve unit with booking deposit,rental_jargon,phrase,2,ask_deposit,static_init
+can anot,can or not,manglish_phrase,phrase,2,general,static_init
+depo 2+1,security deposit advance rent,rental_jargon,phrase,2,ask_deposit,static_init
+got anot,available or not,manglish_phrase,phrase,2,ask_availability,static_init
+2+1+0.5,security deposit advance rent utility deposit,rental_jargon,phrase,2,ask_deposit,static_init
+api air,electricity water utilities,rental_jargon,phrase,2,ask_facilities,static_init
+all in,utilities included price,rental_jargon,phrase,2,ask_price,static_init
+跑meter,individual electricity sub-meter,chinese_rojak,substring,2,ask_facilities,static_init
+拎包入住,Fully Furnished,chinese_rojak,substring,2,furnished,static_init
+独立电表,individual electricity sub-meter,chinese_rojak,substring,2,ask_facilities,static_init
+2+1,security deposit advance rent,rental_jargon,phrase,2,ask_deposit,static_init
+包水电,utilities included,chinese_rojak,substring,2,ask_facilities,static_init
+退押金,deposit refund,chinese_rojak,substring,2,ask_deposit,static_init
+包网,Internet WiFi included,chinese_rojak,substring,2,ask_facilities,static_init
+小煮,Cooking Allowed,chinese_rojak,substring,2,ask_facilities,static_init
+看房,viewing appointment,chinese_rojak,substring,2,request_viewing,static_init
+跑表,individual electricity sub-meter,chinese_rojak,substring,2,ask_facilities,static_init
+车位,parking,chinese_rojak,substring,2,parking,static_init
+aircond,Air-Cond,rental_jargon,word_boundary,3,ask_facilities,static_init
+carpark,parking,rental_jargon,word_boundary,3,parking,static_init
+buking,booking,phonetic_rojak,word_boundary,3,ask_deposit,static_init
+kansel,cancel,phonetic_rojak,word_boundary,3,ask_rental_terms,static_init
+konfem,confirm,phonetic_rojak,word_boundary,3,general,static_init
+stesen,station,phonetic_rojak,word_boundary,3,ask_location,static_init
+avail,available,rental_jargon,word_boundary,3,ask_availability,static_init
+cyber,Cyberjaya,location_abbr,word_boundary,3,location,static_init
+rifan,refund,phonetic_rojak,word_boundary,3,ask_deposit,static_init
+setel,settle,phonetic_rojak,word_boundary,3,general,static_init
+sidai,delay or ignore reply,phonetic_rojak,word_boundary,3,request_viewing,static_init
+anot,or not,whatsapp_shorthand,word_boundary,3,general,static_init
+bape,berapa,whatsapp_shorthand,word_boundary,3,ask_price,static_init
+depo,deposit,phonetic_rojak,word_boundary,3,ask_deposit,static_init
+nego,negotiable,rental_jargon,word_boundary,3,ask_price,static_init
+skrg,sekarang,whatsapp_shorthand,word_boundary,3,ask_availability,static_init
+xblh,tidak boleh,whatsapp_shorthand,word_boundary,3,general,static_init
+blh,boleh,whatsapp_shorthand,word_boundary,3,general,static_init
+brp,berapa,whatsapp_shorthand,word_boundary,3,ask_price,static_init
+caj,charge,phonetic_rojak,word_boundary,3,ask_price,static_init
+dgn,dengan,whatsapp_shorthand,word_boundary,3,general,static_init
+dkt,dekat,whatsapp_shorthand,word_boundary,3,ask_location,static_init
+dtg,datang,whatsapp_shorthand,word_boundary,3,request_viewing,static_init
+lps,lepas,whatsapp_shorthand,word_boundary,3,general,static_init
+mth,month,whatsapp_shorthand,word_boundary,3,ask_rental_terms,static_init
+okr,Old Klang Road,location_abbr,word_boundary,3,location,static_init
+org,orang,whatsapp_shorthand,word_boundary,3,general,static_init
+pax,person,whatsapp_shorthand,word_boundary,3,search_property,static_init
+sbb,sebab,whatsapp_shorthand,word_boundary,3,general,static_init
+tlg,tolong,whatsapp_shorthand,word_boundary,3,general,static_init
+utk,untuk,whatsapp_shorthand,word_boundary,3,general,static_init
+xda,tidak ada,whatsapp_shorthand,word_boundary,3,general,static_init
+xde,tidak ada,whatsapp_shorthand,word_boundary,3,general,static_init
+xnk,tidak nak,whatsapp_shorthand,word_boundary,3,general,static_init
+ac,Air-Cond,rental_jargon,word_boundary,3,ask_facilities,static_init
+bj,Bukit Jalil,location_abbr,word_boundary,3,location,static_init
+bu,Not Furnished,rental_jargon,word_boundary,3,furnished,static_init
+cp,parking,rental_jargon,word_boundary,3,parking,static_init
+ff,Fully Furnished,rental_jargon,word_boundary,3,furnished,static_init
+kd,Kota Damansara,location_abbr,word_boundary,3,location,static_init
+kt,dekat,whatsapp_shorthand,word_boundary,3,ask_location,static_init
+mk,Mont Kiara,location_abbr,word_boundary,3,location,static_init
+nk,nak,whatsapp_shorthand,word_boundary,3,general,static_init
+pf,Partially Furnished,rental_jargon,word_boundary,3,furnished,static_init
+pj,Petaling Jaya,location_abbr,word_boundary,3,location,static_init
+sj,Subang Jaya,location_abbr,word_boundary,3,location,static_init
+sk,Seri Kembangan,location_abbr,word_boundary,3,location,static_init
+ta,tenancy agreement,rental_jargon,word_boundary,3,ask_rental_terms,static_init
+wm,Wangsa Maju,location_abbr,word_boundary,3,location,static_init
+yg,yang,whatsapp_shorthand,word_boundary,3,general,static_init
+x,tidak,whatsapp_shorthand,word_boundary,3,general,static_init
